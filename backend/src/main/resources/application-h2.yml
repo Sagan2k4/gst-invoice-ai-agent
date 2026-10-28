@@ -1,0 +1,6 @@
+# Zero-setup demo: in-memory H2 (MySQL mode), no MySQL or Redis needed. Data is lost on restart.
+spring:
+  datasource:
+    url: jdbc:h2:mem:gst;MODE=MySQL;DATABASE_TO_LOWER=TRUE;DB_CLOSE_DELAY=-1
+    username: sa
+    password:

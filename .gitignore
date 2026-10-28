@@ -1,0 +1,20 @@
+# Env / secrets
+.env
+backend/application-local.yml
+
+# Backend
+backend/target/
+backend/uploads/
+uploads/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
